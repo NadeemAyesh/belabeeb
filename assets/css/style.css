@@ -96,12 +96,12 @@ input[type="radio"]:focus {
 
 .btn-belabeeb {
     padding: 8px 30px !important;
-    background-color: var(--secondary-color) !important;
-    border-color: var(--secondary-color) !important;
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
     color: #FFF !important;
-    border-radius: 25px;
+    border-radius: 12px;
     font-family: 'medium', 'main', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .cover-image {
@@ -115,7 +115,7 @@ picture {
 }
 
 .sec-padding {
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 /* Start General */
@@ -173,6 +173,142 @@ picture {
     border-radius: 50%;
 }
 /* main header */
+
+/* search-header */
+.search-header {
+    position: relative;
+}
+
+.search-header .form-control {
+    background: #383B3E;
+    border: none !important;
+    height: 52px;
+    border-radius: 3px;
+    width: 614px;
+    padding-left: 45px;
+    color: #FFF;
+    font-size: 15px;
+}
+
+.search-header .btn {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    color: #FFF;
+    transform: translateY(-50%);
+}
+
+.search-header .form-control::placeholder {
+    color: white;
+    opacity: 1;
+}
+/* search-header */
+
+/* hero */
+.hero {
+    padding: 80px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--main-color);
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3B3E40;
+}
+
+.hero span {
+    font-size: 12px;
+    font-weight: 500;
+    color: #3B3E40;
+}
+
+.hero figure {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: right;
+}
+/* hero */
+
+/* sec-title */
+.sec-title h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #3B3E40;
+    margin-bottom: 0;
+}
+/* sec-title */
+
+/* vertical-course-item */
+.vertical-course-item {
+    background-color: #FFF;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.10);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.vertical-course-item figure {
+    width: 125px;
+    /* height: 100%; */
+    overflow: hidden;
+    margin-bottom: 0;
+    flex: 1 1 calc(100% - 125px);
+}
+
+.vertical-text {
+    width: calc(100% - 125px);
+    flex: 1 1 calc(100% - 125px);
+}
+
+.vertical-text p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #3B3E40;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: normal;
+    white-space: nowrap;
+}
+
+.vertical-text h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #3B3E40;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: normal;
+    white-space: nowrap;
+}
+
+.vertical-text time {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(59, 62, 64, 0.6);
+}
+
+.vertical-arrows .swiper-button-prev,
+.vertical-arrows .swiper-button-next {
+    z-index: 99;
+}
+
+/* vertical-course-item */
 
 
 /* Media for responsive */

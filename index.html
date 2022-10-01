@@ -14,6 +14,7 @@
 
     <title>BeLabeeb | بيلابييب</title>
     <link rel="stylesheet" href="assets/vendor/bootstrap-5.2.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
@@ -48,9 +49,9 @@
                             </ul>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
+                    <form class="d-flex search-header" role="search">
+                        <button class="btn" type="submit"><i class="bi bi-search"></i></button>
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                     <ul class="navbar-nav ms-auto align-items-center">
                         <li class="nav-item dropdown">
@@ -108,9 +109,142 @@
     </header>
     <!-- main header -->
 
+    <!-- main content -->
+    <main class="main-content">
+        <!-- hero section -->
+        <section class="hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h1>Lorem ipsum dolor sit amet, consectetur</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+
+                        <a href="" class="btn btn-belabeeb">My Curses</a>
+                        <br>
+                        <span>Money Back Guaranties</span>
+                    </div>
+                    <div class="col-lg-6">
+                        <figure>
+                            <img src="assets/images/hero.png" alt="" />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero section -->
+
+        <!-- vertical items -->
+        <section class="vertical-items sec-padding">
+            <div class="container">
+
+                <header class="sec-title">
+                    <div class="d-flex justify-content-between">
+                        <h4>Lets start learning, Linda</h4>
+                        <a href="" class="btn-show-more">Go to My Courses</a>
+                    </div>
+                </header>
+
+                <!-- Slider main container -->
+                <div class="vertical-slider swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <a href="" class="d-block">
+                                <article class="vertical-course-item">
+                                    <div class="d-flex">
+                                        <figure>
+                                            <img src="assets/images/course.jpg" alt="" class="cover-image" />
+                                        </figure>
+                                        <div class="vertical-text flex-grow-1">
+                                            <div class=" p-3">
+                                                <p title="Play in big tennis with our video lore  video lore  video lore">Play in big tennis with our video lore  video lore  video lore</p>
+                                                <h3>Part 2: Be Creative</h3>
+                                                <time>30m</time>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="d-block">
+                                <article class="vertical-course-item">
+                                    <div class="d-flex">
+                                        <figure>
+                                            <img src="assets/images/course.jpg" alt="" class="cover-image" />
+                                        </figure>
+                                        <div class="vertical-text flex-grow-1">
+                                            <div class=" p-3">
+                                                <p title="Play in big tennis with our video lore  video lore  video lore">Play in big tennis with our video lore  video lore  video lore</p>
+                                                <h3>Part 2: Be Creative</h3>
+                                                <time>30m</time>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="d-block">
+                                <article class="vertical-course-item">
+                                    <div class="d-flex">
+                                        <figure>
+                                            <img src="assets/images/course.jpg" alt="" class="cover-image" />
+                                        </figure>
+                                        <div class="vertical-text flex-grow-1">
+                                            <div class=" p-3">
+                                                <p title="Play in big tennis with our video lore  video lore  video lore">Play in big tennis with our video lore  video lore  video lore</p>
+                                                <h3>Part 2: Be Creative</h3>
+                                                <time>30m</time>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="d-block">
+                                <article class="vertical-course-item">
+                                    <div class="d-flex">
+                                        <figure>
+                                            <img src="assets/images/course.jpg" alt="" class="cover-image" />
+                                        </figure>
+                                        <div class="vertical-text flex-grow-1">
+                                            <div class=" p-3">
+                                                <p title="Play in big tennis with our video lore  video lore  video lore">Play in big tennis with our video lore  video lore  video lore</p>
+                                                <h3>Part 2: Be Creative</h3>
+                                                <time>30m</time>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="vertical-arrows">
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                    </div>
+                </div>
+
+            </div> <!-- ./ end container -->
+        </section>
+        <!-- vertical items -->
+    </main>
+    <!-- main content -->
+
 
     <script src="assets/vendor/bootstrap-5.2.1-dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 
